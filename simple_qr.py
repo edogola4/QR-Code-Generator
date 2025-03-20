@@ -1,4 +1,4 @@
-import qrcode
+import qrcode # type: ignore
 
 def generate_simple_qr(data, filename="output/simple_qr_code.png"):
     # Create QR code instance

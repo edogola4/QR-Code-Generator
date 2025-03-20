@@ -1,0 +1,4 @@
+numpy
+matplotlib
+pillow
+qrcode[pil]  # Optional, for the simpler version

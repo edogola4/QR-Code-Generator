@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 def create_modern_qr_code(url, output_file="modern_qr_code.png", color="#2980b9", add_logo=False):
     """
-    Creates a modern-looking QR code linking to the provided URL
+    Creates a modern-looking QR code linking to my portfolio website
     
     Parameters:
     url (str): The URL to encode in the QR code

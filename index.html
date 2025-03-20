@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon's QR Code</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        
+        .qr-image {
+            width: 260px;
+            height: 260px;
+            margin: 0 auto 20px;
+            display: block;
+        }
+        
+        .description {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(52, 152, 219, 0.2);
+        }
+        
+        .btn:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(52, 152, 219, 0.3);
+        }
+        
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #95a5a6;
+        }
+        
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        
+        .feature {
+            flex: 1;
+            min-width: 120px;
+            margin: 10px;
+            padding: 15px;
+            background-color: #f1f9ff;
+            border-radius: 8px;
+        }
+        
+        .feature-icon {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Scan to Visit My Website</h1>
+        
+        <img src="output/branded_qr.png" alt="QR Code to Brandon's Website" class="qr-image">
+        
+        <p class="description">
+            Scan this QR code with your phone's camera to instantly visit my portfolio website.
+            Discover my projects, skills, and how to contact me.
+        </p>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🚀</div>
+                <p>Fast Loading</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎨</div>
+                <p>Modern Design</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📱</div>
+                <p>Mobile Friendly</p>
+            </div>
+        </div>
+        
+        <a href="https://brandon-2i82.vercel.app/" class="btn">
+            Visit Website Directly
+        </a>
+        
+        <div class="footer">
+            Created with Modern QR Code Generator | &copy; 2025 Brandon
+        </div>
+    </div>
+</body>
+</html>
